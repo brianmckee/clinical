@@ -2,10 +2,11 @@
   "patients": [
     { "id": 1, "fname": "Bob", "lname": "Smith", "dob": "12/31/2005", "location": "Unit 1" },
     { "id": 2, "fname": "Joan", "lname": "Doe", "dob": "04/15/1986", "location": "Unit 1" },
-    { "id": 2, "fname": "Bill", "lname": "Coan", "dob": "01/10/1976", "location": "Unit 1" }
+    { "id": 3, "fname": "Bill", "lname": "Coan", "dob": "01/10/1976", "location": "Unit 1" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "patientDetails": [
+    { "id": 1, "fname": "Bob", "lname": "Smith", "dob": "12/31/2005", "location": "Unit 1", "mrn": "M80096783", "visit": "V342001" },
+    { "id": 2, "fname": "Joan", "lname": "Doe", "dob": "04/15/1986", "location": "Unit 1", "mrn": "M80093787", "visit": "V352003" },
+    { "id": 3, "fname": "Bill", "lname": "Coan", "dob": "01/10/1976", "location": "Unit 1", "mrn": "M80094783", "visit": "V332006" }
   ]
 }
